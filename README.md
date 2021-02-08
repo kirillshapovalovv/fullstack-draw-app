@@ -9,8 +9,16 @@
 # Screen example
 ![Example](/example.png)
 # How to start?
-* cd server
-* npm run dev
-* cd client
-* npm start
+```
+cd server
+```
+```
+npm run dev
+```
+```
+cd client
+```
+```
+npm start
+```
 
