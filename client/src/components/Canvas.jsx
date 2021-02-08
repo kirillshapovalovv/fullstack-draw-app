@@ -74,7 +74,7 @@ const Canvas = observer(() => {
         const ctx = canvasRef.current.getContext('2d');
         switch(figure.type) {
             case 'brush':
-                Brush.staticDraw(ctx, figure.x, figure.y, figure.color, figure.lWidth, figure.strokeColor)
+                Brush.draw(ctx, figure.x, figure.y, figure.color, figure.lWidth, figure.strokeColor)
                 break
             case 'eraser':
                 Eraser.draw(ctx, figure.x, figure.y)
